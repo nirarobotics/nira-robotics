@@ -167,5 +167,49 @@ font-size: 22px;
 .whatsapp-float:hover {
     background: #1ebc59;
 }
+/* ===== MOBILE RESPONSIVE DESIGN ===== */
+@media (max-width: 768px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .hero-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .buttons a {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+  }
+}
+
 
 

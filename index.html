@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIRA Robotics | Logically Practical</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="main-container reveal">
+
+        <!-- TOP HEADER -->
+        <div class="header reveal">
+            <div class="title-box reveal">
+                <h1>NIRA ROBOTICS</h1>
+                <p class="tagline">Logically Practical</p>
+            </div>
+
+            <img src="images/logo.png" class="logo reveal" alt="Logo">
+        </div>
+
+        <!-- HERO SECTION -->
+        <div class="hero reveal">
+            <img src="images/bot1.png" class="bot-left reveal" alt="Robot">
+
+            <div class="content reveal">
+                <h2>Build Your Own BOT</h2>
+                <p>
+                    Practical robotics learning for school & college students.
+                    Learn electronics, coding, and real-world applications.
+                </p>
+
+                <a href="#courses" class="btn">Explore Courses</a>
+            </div>
+        </div>
+
+        <!-- COURSES SECTION -->
+        <div class="section reveal" id="courses">
+            <h2>Courses Offered</h2>
+            <ul>
+                <li>Junior Robotics (Age 6–10)</li>
+                <li>Intermediate Robotics (Age 11–14)</li>
+                <li>Advanced Robotics (Age 15+)</li>
+            </ul>
+        </div>
+
+        <!-- LOWER ROBOT IMAGE -->
+        <div class="image-section reveal">
+            <img src="images/bot2.png" class="bot-bottom reveal" alt="Robot">
+        </div>
+
+        <!-- CONTACT SECTION -->
+        <div class="contact reveal">
+            <h2>Contact & Registration</h2>
+            <p>📍 Kaladipet, Chennai-600019, India</p>
+            <p>📞 WhatsApp: +91 8438173206</p>
+
+            <a href="https://wa.me/918438173206" class="btn">Chat on WhatsApp</a>
+            <a href="https://forms.gle/your-form-link" class="btn secondary">Register Now</a>
+        </div>
+
+    </div>
+<script>
+  const reveals = document.querySelectorAll(".reveal");
+
+  window.addEventListener("scroll", () => {
+    reveals.forEach((el) => {
+      const windowHeight = window.innerHeight;
+      const elementTop = el.getBoundingClientRect().top;
+      const revealPoint = 100;
+
+      if (elementTop < windowHeight - revealPoint) {
+        el.classList.add("active");
+      }
+    });
+  });
+</script>
+<a href="https://wa.me/918438173206" class="whatsapp-float" target="_blank">
+    💬
+</a>
+
+</body>
+</html>

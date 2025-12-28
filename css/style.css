@@ -1,0 +1,171 @@
+* {
+    margin: 80;
+    padding: 50;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: url("../images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-box h1 {
+    background: #0a76c7;
+    color: white;
+    padding: 30px 350px;
+    border-radius: 10px;
+    display: inline-block;
+font-size: 44px;
+margin-left: 20px;
+margin-top: -40px;
+
+}
+
+.tagline {
+    background: white;
+    color: #0a76c7;
+    padding: 15px 300px;
+    width: fit-content;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+font-size: 26px;
+margin-left: -20px;
+margin-top: 0px;
+}
+
+.logo {
+    width: 430px;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.bot-left {
+    width: 600px;
+margin-left: 90px;
+}
+
+.content {
+    max-width: 650px;
+margin-top: 10px;
+}
+
+.content h2 {
+    color: #0a76c7;
+    font-size: 36px;
+margin-top: 10px;
+}
+
+.content p {
+    margin: 15px 0;
+    font-size: 24px;
+margin-top: 20px;
+}
+
+/* BUTTONS */
+.btn {
+    display: inline-block;
+    background: #0a76c7;
+    color: white;
+    padding: 20px 35px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+font-size: 24px;
+}
+
+.btn.secondary {
+    background: #333;
+}
+
+/* SECTIONS */
+.section {
+    margin-top: 90px;
+margin-left: 90px;
+font-size: 26px;
+
+}
+
+.section h2 {
+    color: #0a76c7;
+    margin-bottom: 15px;
+}
+
+.section ul {
+    list-style: none;
+    font-size: 22px;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+}
+
+/* BOTTOM IMAGE */
+.image-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.bot-bottom {
+    width: 450px;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+    margin-top: 50px;
+font-size: 22px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Scroll animation */
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 1.2s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+.whatsapp-float {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #25D366;
+    color: white;
+    font-size: 28px;
+    padding: 15px 18px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 999;
+}
+
+.whatsapp-float:hover {
+    background: #1ebc59;
+}
+
+
